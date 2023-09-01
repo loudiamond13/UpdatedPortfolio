@@ -1,0 +1,15 @@
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.csproj.AssemblyReference.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.csproj.ResolveComReference.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.AssemblyInfoInputs.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.AssemblyInfo.cs
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\bin\Debug\net7.0-windows\BookStoreLibraryFinalProject.deps.json
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\bin\Debug\net7.0-windows\BookStoreLibraryFinalProject.runtimeconfig.json
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\bin\Debug\net7.0-windows\BookStoreLibraryFinalProject.dll
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\bin\Debug\net7.0-windows\BookStoreLibraryFinalProject.pdb
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.dll
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\refint\BookStoreLibraryFinalProject.dll
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.pdb
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\BookStoreLibraryFinalProject.genruntimeconfig.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\FINAL PROJECT\FINAL PROJECT\BookStoreLibraryFinalProject\obj\Debug\net7.0-windows\ref\BookStoreLibraryFinalProject.dll

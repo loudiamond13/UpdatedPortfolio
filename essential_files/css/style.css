@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+ 
+/*GENERAL SETTINGS*/
+
+:root
+{
+    --sidebar-width: 15em;
+    --font-base:    "Bruno Ace SC";
+    --bodyBase-color:#313131;
+    --base2-color: rgb(81, 81, 81);   
+    --heading-color: #ca3e47;
+    --textBody-color: rgba(239, 190, 190, 0.875) ;
+    
+    /*--brand-color: #cc5555 ---color:#F1F6F9;*/
+    --brand2-color: #FF1E1E;
+    --brand3-color: #C02739;
+    
+}
+
+body
+{
+    font-family: var(--font-base);
+    background-color: var(--bodyBase-color);
+    color: var(--textBody-color);
+   /* color: var(--textBody-color);*/
+
+    
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: var(--heading-color);
+}
+
+.full-page-height
+{
+    height: 100%;
+    min-height: 100vh;
+    border-bottom: 2px rgba(255, 103, 103, 0.474) solid;
+}
+
+img
+{
+    width: 100%;
+}
+
+a
+{
+    color: var(--brand2-color);
+    transition: all 0.5s ease;
+    text-decoration: none;
+   
+}
+
+a:hover
+{
+    color: var(--brand3-color);
+}
+
+.custom-link
+{
+    position: relative;
+}
+
+.custom-link::after
+{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--brand3-color);
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+    top: 110%;
+}
+
+.custom-link:hover::after
+{
+    width: 100%;
+}
+
+.text-brand
+{
+    color: var(--brand3-color);
+}
+
+.btn-brand
+{
+    font-size: 1.12em;
+    font-weight: 500;
+    color: var(--brand3-color);
+}
+
+.btn-brand:hover
+{
+    color: var(--textBody-color);
+}
+
+.shadow-effect:hover {
+    box-shadow: 6px -6px 0 0 var(--brand3-color);
+}
+
+.nav-pills .nav-link
+{
+    color: var(--textBody-color) ;
+}
+
+#nav-tab .nav-link:hover
+{
+    background-color: var(--base2-color);
+}
+.nav-pills .nav-link.active, .tab-pane
+{
+    background-color: var(--base2-color);
+    color: var(--brand3-color);
+    box-shadow: 6px -6px 0 0 var(--heading-color);
+}
+
+.tab-pane
+{
+    border-radius: 5px ;
+    
+    color: var(--textBody-color);
+    
+}
+
+/*^GENERAL SETTINGS*/
+
+/*navbar settings*/
+.navbar
+{
+    
+    background-image: linear-gradient(300deg, #9BA4B5, var(--bodyBase-color)) ;
+}
+
+.navbar .nav-link
+{
+    /*color: var(--textBody-color);*/
+    color: white;
+    text-transform: uppercase;
+    font-weight: 650;
+    
+}
+.navbar .nav-link.active
+{
+    color: var(--heading-color);
+}
+
+
+.navbar .nav-link:hover
+{
+    color: var(--brand3-color);
+}
+
+.navbar-brand img
+{
+    border: 6px solid var(--heading-color);
+}
+
+
+
+/*content settings*/
+
+/*resume*/
+.paper 
+{
+    background: #fff;
+    padding: 30px;
+    position: relative;
+    color: black;
+    font-size: .8em;
+  }
+  
+  .paper,
+  .paper::before,
+  .paper::after 
+  {
+    /* Styles to distinguish sheets from one another */
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+    border: 1px solid #bbb;
+  }
+  
+  .paper::before,
+  .paper::after 
+  {
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 99%;
+    background-color: #eee;
+  }
+  
+  .paper::before 
+  {
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
+  }
+  
+  .paper::after
+   {
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
+  }
+
+
+  /*CONTACT SETTINGS*/
+  #contact .form-control
+  {
+    background-color: var(--base2-color);
+    border-color: var(--brand3-color);
+    color: var(--textBody-color);
+  }
+
+  #contact .form-control:focus
+  {
+    border-color: var(--brand2-color);
+  }
+  #contact .form-control::placeholder
+  {
+    color: var(--textBody-color);
+  }
+
+  /*clock settings*/
+  #clock 
+  {
+    color: var(--textBody-color);
+    background-color: var(--bodyBase-color);
+  }
+  
+  .stopwatch 
+  {
+    width: auto;
+    
+  }
+  
+  #clock
+  {
+    align-items: center;
+  }
+
+ 
+
+
+/*media screen settings*/
+
+/* show navbar to the side if screen is => 992px*/
+@media (min-width: 992px) 
+{
+    
+    .navbar
+    {
+        width: var(--sidebar-width);
+        min-height: 100vh;
+        background-image: linear-gradient(to right, #9BA4B5, var(--bodyBase-color)) ;
+    }
+
+    /*content settings*/
+    #content-wrapper
+    {
+        padding-left: var(--sidebar-width);
+    }
+
+    .button-pill
+    {
+        font-size: 1.5em ;
+        
+    }
+
+}
+
+
+
+/*print settings*/
+
+
+@media print {
+
+   header, #home, #about, #works, #contact, footer, h5, button, a
+   {
+    display: none !important;
+   }
+   
+   body
+   {
+    height: auto;
+    all: unset;
+   }
+
+   .paper,
+   .paper::before,
+   .paper::after
+   {
+     all: unset;
+   }
+   
+   #resume
+    {
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    
+    div
+    {
+    page-break-inside: avoid;
+    }
+
+ /* ul,p {
+    page-break-inside: avoid;
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }*/
+
+
+   
+
+}

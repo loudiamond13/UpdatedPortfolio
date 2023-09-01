@@ -1,0 +1,11 @@
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\bin\Debug\LetterGrade-GUI.exe.config
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\bin\Debug\LetterGrade-GUI.exe
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\bin\Debug\LetterGrade-GUI.pdb
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade-GUI.csproj.AssemblyReference.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade-GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade_GUI.Properties.Resources.resources
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade-GUI.csproj.GenerateResource.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade-GUI.csproj.CoreCompileInputs.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade-GUI.exe
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade-GUI.pdb
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT02\LetterGrade-GUI\obj\Debug\LetterGrade_GUI.LetterGradeGUI.resources

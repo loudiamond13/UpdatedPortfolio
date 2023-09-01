@@ -1,0 +1,12 @@
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\bin\Debug\CardDesignerGUI.exe.config
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\bin\Debug\CardDesignerGUI.exe
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\bin\Debug\CardDesignerGUI.pdb
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.csproj.AssemblyReference.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.frmCardDesignerGUI.resources
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.Properties.Resources.resources
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.csproj.GenerateResource.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.csproj.CoreCompileInputs.cache
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.exe
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.pdb
+C:\Users\diamo\Desktop\C#_SUMMER_SEM\AWD1100-Summer2023-LouDiamondLoyloy-master\HOT\HOT04CardStoreGUI\CardDesignerGUI\obj\Debug\CardDesignerGUI.frmWelcomeGUI.resources

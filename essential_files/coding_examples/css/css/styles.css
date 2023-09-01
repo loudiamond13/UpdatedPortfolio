@@ -1,0 +1,578 @@
+/*MY CSS FOR HOT3*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body 
+{
+    
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(33, 30, 22);
+    max-width: 100%;
+}
+
+
+
+ ul 
+{
+    list-style: none;
+}
+
+ a 
+{
+    color: red;
+    text-decoration: none;
+}
+
+ h1, h2 
+{
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+p 
+{
+    margin: .8em 0;
+}
+
+img
+{
+    width: 100%;
+}
+
+/* NAVBAR SETTINGS */
+
+.nav_bar 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(33, 30, 22);
+    width: 100%;
+    height: 7.4em;
+    top: 0;
+    padding: 0 2em;
+    color: red;
+    position: fixed;
+}
+
+.nav_bar a
+{
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.nav_bar a:hover 
+{
+   
+    border-bottom: 2px solid red;
+    color: white;
+}
+
+.nav_bar ul 
+{
+    font-size: 1.5em;
+    display: flex;
+}
+
+.nav_bar .logo 
+{
+    font-weight: 500;
+   
+}
+
+
+/* HEADER SETTINGS */
+
+.hero 
+/*  Sneaker photo by Clément Hélardot on Unsplash   */
+{
+    background: url('../images/home_image.jpg') no-repeat center center/cover;
+    position: relative;
+    color: white;
+    height: 65vh;
+   
+}
+
+.hero .content 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+    height: 100%;
+    padding: 0 2.5em;
+    
+
+
+}
+
+.hero .content h1 {
+    font-size: 60px;
+	font-weight: 700;
+    color: red;
+    text-shadow: 2px 8px   black;
+    text-decoration: underline;
+    font-style: italic;
+    
+    
+}
+
+.hero h2 
+{
+    padding-bottom: 2em;
+    font-size: 25px;
+}
+
+.btn 
+{
+    border: 3px solid black;
+    max-width: 17%;
+    padding: .8em;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+   
+}
+
+#cart
+{
+    color: red;
+}
+
+.hero * {
+    z-index: 10;
+}
+
+.hero::before 
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+/* MAIN / SECTION SETTINGS */
+/* New Released Section */
+.flex_columns
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.flex_columns h1
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: red;
+    padding: 3em 0 .3em 0;
+    font-style: italic;
+   
+}
+.flex_items
+{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+
+.flex_items img 
+{
+    border-radius: 50%;
+}
+
+.flex_items 
+h2, p
+{
+    font-size: 1.5em;
+}
+
+/* BEST SELLER SECTION */
+
+.flex_columns .row
+{
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+    
+    height: 100%;
+    
+}
+
+.flex_columns .column 
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    padding: 0 2em ;
+    margin: .5em;
+    flex: 1;
+    height: 100%;
+}
+
+.flex_columns .column h2
+
+{
+    
+    text-align: center;
+    background-color: maroon;
+    margin-bottom: 1.5em;
+}
+.row img
+{
+    width: 100%;
+    
+}
+
+
+/*ABOUT SETTINGS*/
+
+#about
+{
+    color: white;
+    width: 100%;
+    padding: 2em;
+    height: 100%;
+}
+
+#about h1
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: red;
+    padding: 3em 0 .3em 0;
+    font-style: italic;
+}
+
+footer
+{
+    text-align: center;
+    color: white;
+    padding: .5em;
+    font-size: .8em;
+    background-color: maroon;
+}
+
+
+
+/*MEDIA QUIRIES*/
+/*MOBILE*/
+@media only screen and (min-width: 480px) {
+   body 
+   {
+    width: 100%;
+    font-size: 50%;
+    margin: 0 auto;
+   }
+
+   .nav_bar 
+   {
+        flex-direction: column;
+        align-items: center;
+        
+        position: relative;
+        font-size: 1.3em;
+   }
+
+  
+   
+   .nav_bar ul 
+   {
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(33, 30, 22);
+        line-height: 2;
+       
+   }
+
+   .logo 
+   {
+        max-width: 20%;
+        align-items: center;
+        margin-right: 50px;
+   }
+
+   .hero
+   {
+  
+    height: 60vh;
+   }
+  .hero .content 
+  {
+    margin-top: -200px;
+   
+    
+  }
+
+
+  .hero .content h1
+  {
+    margin-top: 400px;
+  
+    font-size: 4em;
+  }
+
+  .hero .content h2 
+  {
+    font-size: 2em;
+  }
+
+  .flex_columns h1 
+  {
+    font-size: 3em;
+  }
+
+  .flex_columns .flex_items img
+  {
+    width: 55%;
+    padding: 3px;
+  }
+
+
+  .flex_columns .flex_items p
+  {
+    font-size: 1.5em;
+  }
+
+  .flex_columns .flex_items h2
+  {
+    font-size: 2em;
+  }
+
+  .flex_columns .flex_items 
+  {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+
+
+   .flex_columns .row
+   {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+   }
+   .flex_columns .row p
+   {
+    font-size: 1.5em;
+   }
+   
+   .flex_columns .row h2
+   {
+    font-size: 2em;
+   }
+
+   
+   .btn
+   {
+    font-size: 1em;
+   
+   }
+
+   #about
+   {
+    font-size: 1.6em;
+   }
+
+   footer 
+   {
+    font-size: 1.2em;
+   }
+
+   p {
+    font-size: 90%;
+   }
+}
+
+
+/*TABLET*/
+@media only screen and (min-width: 600px)
+{
+    body {
+      
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .nav_bar 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+        font-size: 1.2em;
+       
+        position: fixed;
+        padding: 0;
+    }
+
+    .nav_bar ul 
+    {
+        
+        display: flex;
+        flex-direction: row;
+        
+        
+        flex-wrap: wrap;
+     
+    }
+
+ 
+    .hero
+    {
+        margin-top: 120px;
+        height: 80vh;
+        min-height:100vh;
+    }
+
+
+
+    .logo 
+    {   
+        min-width: 80px;
+        max-width: 90px;
+        margin-top: 5px;
+    }
+
+    .btn 
+    {
+       
+        font-size: 1em;
+    }
+
+    .flex_columns .flex_items
+    {
+        display: flex;
+        flex-direction: row;
+       
+        
+    }
+
+    .flex_columns .flex_items img 
+    {
+        
+        width: 95%;
+    }
+
+   
+
+    .flex_columns .row
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .flex_columns .row .column
+    {
+        flex-direction: column;
+        max-width: 60%;
+        flex-basis: 33%;
+    }
+
+
+}
+
+/* DESKTOP  */
+@media only screen and (min-width: 1200px) 
+{
+    body 
+    {
+        font-size: 95%;
+        width: 100%;
+    }
+
+    .nav_bar 
+    {
+        font-size: .8em;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero 
+    {
+       
+        height: 90vh;
+    }
+
+    .logo
+    {
+        width: 12%;
+    }
+
+    .btn
+    {
+        font-size: 12px;
+    }
+    
+    .flex_columns .flex_items 
+    {
+        
+        
+        margin: 20px;
+    }
+
+    .flex_columns .row
+    {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    #about 
+    {
+        font-size: 1em;
+    }
+    p
+    {
+        font-size: 1em;
+    }
+
+    .flex_columns h1 
+
+    {
+        font-size: 2em;
+    }
+
+    .flex_columns .flex_items h2,
+    .flex_columns .row h2 
+    {
+        font-size: 1.8em;
+    }
+
+    .flex_columns .row p,
+    .flex_columns .flex_items p 
+    {
+        font-size: 1em;
+    } 
+
+    footer 
+    {
+        font-size: 80%;
+    }
+}
+
+
